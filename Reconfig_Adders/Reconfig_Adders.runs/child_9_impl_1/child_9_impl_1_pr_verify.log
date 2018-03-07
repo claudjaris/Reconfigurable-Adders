@@ -1,0 +1,22 @@
+Command: pr_verify -full_check -initial C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/impl_1/top_routed.dcp -additional C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_9_impl_1/top_routed.dcp -file child_9_impl_1_pr_verify.log
+Wed Feb 28 13:48:26 2018
+
+INFO: [Constraints 18-1020] PR Verify Summary:
+DCP1: C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/impl_1/top_routed.dcp
+  Number of reconfigurable modules compared = 1
+  Number of partition pins compared         = 26
+  Number of static tiles compared           = 969
+  Number of static sites compared           = 17
+  Number of static cells compared           = 17
+  Number of static routed nodes compared    = 263
+  Number of static routed pips compared     = 245
+
+DCP2: C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_9_impl_1/top_routed.dcp
+  Number of reconfigurable modules compared = 1
+  Number of partition pins compared         = 26
+  Number of static tiles compared           = 969
+  Number of static sites compared           = 17
+  Number of static cells compared           = 17
+  Number of static routed nodes compared    = 263
+  Number of static routed pips compared     = 245
+INFO: [Vivado 12-3253] PR_VERIFY: check points C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/impl_1/top_routed.dcp and C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_9_impl_1/top_routed.dcp are compatible

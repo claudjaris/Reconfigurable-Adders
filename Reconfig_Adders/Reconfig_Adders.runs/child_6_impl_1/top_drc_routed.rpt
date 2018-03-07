@@ -1,0 +1,200 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+| Date         : Wed Feb 28 12:08:42 2018
+| Host         : cfaed-pdpc004 running 64-bit major release  (build 9200)
+| Command      : report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
+| Design       : top
+| Device       : xc7vx485tffg1761-2
+| Speed File   : -2
+| Design State : Routed
+---------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 31
++-----------+----------+-----------------------------------------------------+------------+
+| Rule      | Severity | Description                                         | Violations |
++-----------+----------+-----------------------------------------------------+------------+
+| CFGBVS-1  | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties | 1          |
+| PDCN-1569 | Warning  | LUT equation term check                             | 30         |
++-----------+----------+-----------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+PDCN-1569#1 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell ReConfig/s1/LUT5 (in ReConfig/s1 macro) is not included in the LUT equation: 'O5=0'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#2 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell ReConfig/s1/LUT6 (in ReConfig/s1 macro) is not included in the LUT equation: 'O6=0'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#3 Warning
+LUT equation term check  
+Used physical LUT pin 'A2' of cell ReConfig/s1/LUT5 (in ReConfig/s1 macro) is not included in the LUT equation: 'O5=0'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#4 Warning
+LUT equation term check  
+Used physical LUT pin 'A2' of cell ReConfig/s1/LUT6 (in ReConfig/s1 macro) is not included in the LUT equation: 'O6=0'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#5 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh/LUT5 (in ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh macro) is not included in the LUT equation: 'O5=(A1*(~A2))+((~A1)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#6 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh/LUT6 (in ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh macro) is not included in the LUT equation: 'O6=(A1*(~A2))+((~A1)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#7 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell ReConfig/s1/LUT5 (in ReConfig/s1 macro) is not included in the LUT equation: 'O5=0'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#8 Warning
+LUT equation term check  
+Used physical LUT pin 'A3' of cell ReConfig/s1/LUT6 (in ReConfig/s1 macro) is not included in the LUT equation: 'O6=0'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#9 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell ReConfig/Gen_LUT[0].LowBit.SmallAdd1.PGSmall/LUT5 (in ReConfig/Gen_LUT[0].LowBit.SmallAdd1.PGSmall macro) is not included in the LUT equation: 'O5=(A1*A2*A3)+(A1*(~A2)*(~A3))+((~A1)*A2*(~A3))+((~A1)*(~A2)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#10 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell ReConfig/Gen_LUT[0].LowBit.SmallAdd1.PGSmall/LUT6 (in ReConfig/Gen_LUT[0].LowBit.SmallAdd1.PGSmall macro) is not included in the LUT equation: 'O6=(A1*A2*A3)+(A1*(~A2)*(~A3))+((~A1)*A2*(~A3))+((~A1)*(~A2)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#11 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh/LUT5 (in ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh macro) is not included in the LUT equation: 'O5=(A1*(~A2))+((~A1)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#12 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh/LUT6 (in ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh macro) is not included in the LUT equation: 'O6=(A1*(~A2))+((~A1)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#13 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell ReConfig/s1/LUT5 (in ReConfig/s1 macro) is not included in the LUT equation: 'O5=0'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#14 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell ReConfig/s1/LUT6 (in ReConfig/s1 macro) is not included in the LUT equation: 'O6=0'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#15 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell ReConfig/Gen_LUT[0].LowBit.SmallAdd1.PGSmall/LUT5 (in ReConfig/Gen_LUT[0].LowBit.SmallAdd1.PGSmall macro) is not included in the LUT equation: 'O5=(A1*A2*A3)+(A1*(~A2)*(~A3))+((~A1)*A2*(~A3))+((~A1)*(~A2)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#16 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell ReConfig/Gen_LUT[0].LowBit.SmallAdd1.PGSmall/LUT6 (in ReConfig/Gen_LUT[0].LowBit.SmallAdd1.PGSmall macro) is not included in the LUT equation: 'O6=(A1*A2*A3)+(A1*(~A2)*(~A3))+((~A1)*A2*(~A3))+((~A1)*(~A2)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#17 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell ReConfig/Gen_LUT[1].MidBit.SmallAdd1.PGSmall/LUT5 (in ReConfig/Gen_LUT[1].MidBit.SmallAdd1.PGSmall macro) is not included in the LUT equation: 'O5=(A1*A2*A3*A4)+(A1*A2*(~A3)*(~A4))+(A1*(~A2)*A3*(~A4))+(A1*(~A2)*(~A3)*A4)+((~A1)*A3*(~A4))+((~A1)*(~A3)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#18 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell ReConfig/Gen_LUT[1].MidBit.SmallAdd1.PGSmall/LUT6 (in ReConfig/Gen_LUT[1].MidBit.SmallAdd1.PGSmall macro) is not included in the LUT equation: 'O6=(A1*A2*A3*A4)+(A1*A2*(~A3)*(~A4))+(A1*(~A2)*A3*(~A4))+(A1*(~A2)*(~A3)*A4)+((~A1)*A3*(~A4))+((~A1)*(~A3)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#19 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell ReConfig/Gen_LUT[2].MidBit.SmallAdd2.PGSmall/LUT5 (in ReConfig/Gen_LUT[2].MidBit.SmallAdd2.PGSmall macro) is not included in the LUT equation: 'O5=(A1*(~A2))+((~A1)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#20 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell ReConfig/Gen_LUT[2].MidBit.SmallAdd2.PGSmall/LUT6 (in ReConfig/Gen_LUT[2].MidBit.SmallAdd2.PGSmall macro) is not included in the LUT equation: 'O6=(A1*A2*A3*A4*A6)+(A1*A2*(~A3)*(~A4)*A6)+(A1*(~A2)*A3*A4*(~A6))+(A1*(~A2)*A3*(~A4))+(A1*(~A2)*(~A3)*A4)+(A1*(~A2)*(~A3)*(~A4)*(~A6))+((~A1)*A2*A3*A4*(~A6))+((~A1)*A2*A3*(~A4))+((~A1)*A2*(~A3)*A4)+((~A1)*A2*(~A3)*(~A4)*(~A6))+((~A1)*(~A2)*A3*(~A4)*A6)+((~A1)*(~A2)*(~A3)*A4*A6)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#21 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[4].FirstHigh.PGHighFirst/LUT5 (in ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[4].FirstHigh.PGHighFirst macro) is not included in the LUT equation: 'O5=(A1*A2*A3)+(A1*A2*(~A3)*A4)+(A1*(~A2)*A3*A4)+((~A1)*A3*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#22 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[4].FirstHigh.PGHighFirst/LUT6 (in ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[4].FirstHigh.PGHighFirst macro) is not included in the LUT equation: 'O6=(A1*A2*A3*(~A6))+(A1*A2*(~A3)*A4*(~A6))+(A1*(~A2)*A3*A4*(~A6))+(A1*(~A2)*A3*(~A4)*A6)+(A1*(~A2)*(~A3)*A4*A6)+((~A1)*A2*A3*A4*(~A6))+((~A1)*A2*A3*(~A4)*A6)+((~A1)*A2*(~A3)*A4*A6)+((~A1)*(~A2)*A3*A4*(~A6))'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#23 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh/LUT5 (in ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh macro) is not included in the LUT equation: 'O5=(A1*(~A2))+((~A1)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#24 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh/LUT6 (in ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh macro) is not included in the LUT equation: 'O6=(A1*(~A2))+((~A1)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#25 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell ReConfig/s1/LUT5 (in ReConfig/s1 macro) is not included in the LUT equation: 'O5=0'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#26 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell ReConfig/s1/LUT6 (in ReConfig/s1 macro) is not included in the LUT equation: 'O6=0'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#27 Warning
+LUT equation term check  
+Used physical LUT pin 'A6' of cell ReConfig/Gen_LUT[0].LowBit.SmallAdd1.PGSmall/LUT6 (in ReConfig/Gen_LUT[0].LowBit.SmallAdd1.PGSmall macro) is not included in the LUT equation: 'O6=(A1*A2*A3)+(A1*(~A2)*(~A3))+((~A1)*A2*(~A3))+((~A1)*(~A2)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#28 Warning
+LUT equation term check  
+Used physical LUT pin 'A6' of cell ReConfig/Gen_LUT[1].MidBit.SmallAdd1.PGSmall/LUT6 (in ReConfig/Gen_LUT[1].MidBit.SmallAdd1.PGSmall macro) is not included in the LUT equation: 'O6=(A1*A2*A3*A4)+(A1*A2*(~A3)*(~A4))+(A1*(~A2)*A3*(~A4))+(A1*(~A2)*(~A3)*A4)+((~A1)*A3*(~A4))+((~A1)*(~A3)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#29 Warning
+LUT equation term check  
+Used physical LUT pin 'A6' of cell ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh/LUT6 (in ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh macro) is not included in the LUT equation: 'O6=(A1*(~A2))+((~A1)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#30 Warning
+LUT equation term check  
+Used physical LUT pin 'A6' of cell ReConfig/s1/LUT6 (in ReConfig/s1 macro) is not included in the LUT equation: 'O6=0'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+

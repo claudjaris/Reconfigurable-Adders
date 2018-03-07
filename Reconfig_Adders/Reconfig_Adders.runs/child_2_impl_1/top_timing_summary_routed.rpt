@@ -1,0 +1,486 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+| Date         : Wed Feb 28 12:05:07 2018
+| Host         : cfaed-pdpc004 running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -warn_on_violation -max_paths 10 -file top_timing_summary_routed.rpt -rpx top_timing_summary_routed.rpx
+| Design       : top
+| Device       : 7vx485t-ffg1761
+| Speed File   : -2  PRODUCTION 1.12 2014-09-11
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  false
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock
+2. checking constant_clock
+3. checking pulse_width_clock
+4. checking unconstrained_internal_endpoints
+5. checking no_input_delay
+6. checking no_output_delay
+7. checking multiple_clock
+8. checking generated_clocks
+9. checking loops
+10. checking partial_input_delay
+11. checking partial_output_delay
+12. checking latch_loops
+
+1. checking no_clock
+--------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock
+--------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock
+-----------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints
+--------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay
+--------------------------
+ There are 0 input ports with no input delay specified.
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay
+---------------------------
+ There are 0 ports with no output delay specified.
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock
+--------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks
+----------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops
+-----------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay
+--------------------------------
+ There are 8 input ports with partial input delay specified. (HIGH)
+
+
+11. checking partial_output_delay
+---------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops
+------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      0.340        0.000                      0                    8           NA           NA                     NA                   NA           NA           NA                      NA                    NA  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock  Waveform(ns)         Period(ns)      Frequency(MHz)
+-----  ------------         ----------      --------------
+clk    {0.000 4.650}        9.300           107.527         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group        From Clock        To Clock              WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------        ----------        --------              -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+**default**       input port clock                          0.340        0.000                      0                    8                                                                        
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+Path Group:  **default**
+From Clock:  input port clock
+  To Clock:  
+
+Setup :            0  Failing Endpoints,  Worst Slack        0.340ns,  Total Violation        0.000ns
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.340ns  (required time - arrival time)
+  Source:                 a[0]
+                            (input port)
+  Destination:            s[1]
+  Path Group:             **default**
+  Path Type:              Max at Slow Process Corner
+  Requirement:            9.000ns  (MaxDelay Path 9.000ns)
+  Data Path Delay:        8.660ns  (logic 3.082ns (35.588%)  route 5.578ns (64.412%))
+  Logic Levels:           4  (CARRY4=1 IBUF=1 LUT6=1 OBUF=1)
+  Output Delay:           0.000ns
+  Timing Exception:       MaxDelay Path 9.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+    AV30                                              0.000     0.000 r  static         a[0] (IN)
+                         net (fo=0)                   0.000     0.000    static         a[0]
+    AV30                 IBUF (Prop_ibuf_I_O)         0.640     0.640 r  static         a_IBUF[0]_inst/O
+                         net (fo=6, estimated)        2.317     2.957    boundary       ReConfig/Gen_LUT[0].LowBit.BigAdd.LowLUT[0].PGLow/I1
+    SLICE_X49Y60         LUT6 (Prop_lut6_I1_O)        0.043     3.000 r  reconfigurable ReConfig/Gen_LUT[0].LowBit.BigAdd.LowLUT[0].PGLow/LUT6/O
+                         net (fo=1, routed)           0.000     3.000    reconfigurable ReConfig/Gen_LUT[0].LowBit.BigAdd.LowLUT[0].PGLow__0
+    SLICE_X49Y60         CARRY4 (Prop_carry4_S[0]_O[1])
+                                                      0.218     3.218 r  reconfigurable ReConfig/Gen_LUT[0].LowBit.BigAdd.LowCarry[0].ChainLow/O[1]
+                         net (fo=1, routed)           3.261     6.480    boundary       s[1]
+    AN39                 OBUF (Prop_obuf_I_O)         2.181     8.660 r  static         s[1]_OBUF_inst/O
+                         net (fo=0)                   0.000     8.660    static         s[1]_OBUF
+    AN39                                                              r  static         s[1] (OUT)
+  -------------------------------------------------------------------    ----------------------------------
+
+                         max delay                    9.000     9.000                   
+                         clock pessimism              0.000     9.000                     
+                         output delay                -0.000     9.000                     
+  -------------------------------------------------------------------
+                         required time                          9.000                     
+                         arrival time                          -8.660                     
+  -------------------------------------------------------------------
+                         slack                                  0.340                     
+
+Slack (MET) :             0.396ns  (required time - arrival time)
+  Source:                 a[0]
+                            (input port)
+  Destination:            s[2]
+  Path Group:             **default**
+  Path Type:              Max at Slow Process Corner
+  Requirement:            9.000ns  (MaxDelay Path 9.000ns)
+  Data Path Delay:        8.604ns  (logic 3.134ns (36.421%)  route 5.470ns (63.579%))
+  Logic Levels:           4  (CARRY4=1 IBUF=1 LUT6=1 OBUF=1)
+  Output Delay:           0.000ns
+  Timing Exception:       MaxDelay Path 9.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+    AV30                                              0.000     0.000 r  static         a[0] (IN)
+                         net (fo=0)                   0.000     0.000    static         a[0]
+    AV30                 IBUF (Prop_ibuf_I_O)         0.640     0.640 r  static         a_IBUF[0]_inst/O
+                         net (fo=6, estimated)        2.317     2.957    boundary       ReConfig/Gen_LUT[0].LowBit.BigAdd.LowLUT[0].PGLow/I1
+    SLICE_X49Y60         LUT6 (Prop_lut6_I1_O)        0.043     3.000 r  reconfigurable ReConfig/Gen_LUT[0].LowBit.BigAdd.LowLUT[0].PGLow/LUT6/O
+                         net (fo=1, routed)           0.000     3.000    reconfigurable ReConfig/Gen_LUT[0].LowBit.BigAdd.LowLUT[0].PGLow__0
+    SLICE_X49Y60         CARRY4 (Prop_carry4_S[0]_O[2])
+                                                      0.266     3.266 r  reconfigurable ReConfig/Gen_LUT[0].LowBit.BigAdd.LowCarry[0].ChainLow/O[2]
+                         net (fo=1, routed)           3.153     6.419    boundary       s[2]
+    AR37                 OBUF (Prop_obuf_I_O)         2.184     8.604 r  static         s[2]_OBUF_inst/O
+                         net (fo=0)                   0.000     8.604    static         s[2]_OBUF
+    AR37                                                              r  static         s[2] (OUT)
+  -------------------------------------------------------------------    ----------------------------------
+
+                         max delay                    9.000     9.000                   
+                         clock pessimism              0.000     9.000                     
+                         output delay                -0.000     9.000                     
+  -------------------------------------------------------------------
+                         required time                          9.000                     
+                         arrival time                          -8.604                     
+  -------------------------------------------------------------------
+                         slack                                  0.396                     
+
+Slack (MET) :             0.439ns  (required time - arrival time)
+  Source:                 a[6]
+                            (input port)
+  Destination:            s[7]
+  Path Group:             **default**
+  Path Type:              Max at Slow Process Corner
+  Requirement:            9.000ns  (MaxDelay Path 9.000ns)
+  Data Path Delay:        8.561ns  (logic 3.263ns (38.118%)  route 5.298ns (61.882%))
+  Logic Levels:           5  (CARRY4=1 IBUF=1 LUT2=1 LUT6=1 OBUF=1)
+  Output Delay:           0.000ns
+  Timing Exception:       MaxDelay Path 9.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+    BA30                                              0.000     0.000 r  static         a[6] (IN)
+                         net (fo=0)                   0.000     0.000    static         a[6]
+    BA30                 IBUF (Prop_ibuf_I_O)         0.670     0.670 r  static         a_IBUF[6]_inst/O
+                         net (fo=5, routed)           1.945     2.615    boundary       ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[6].OthersHigh.PGHigh/I1
+    SLICE_X49Y53         LUT6 (Prop_lut6_I1_O)        0.043     2.658 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[6].OthersHigh.PGHigh/LUT6/O
+                         net (fo=1, routed)           0.000     2.658    reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[6].OthersHigh.PGHigh__0
+    SLICE_X49Y53         CARRY4 (Prop_carry4_S[1]_CO[2])
+                                                      0.291     2.949 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighCarry[0].ChainHigh/CO[2]
+                         net (fo=1, routed)           0.818     3.767    boundary       c_out
+    SLICE_X49Y49         LUT2 (Prop_lut2_I0_O)        0.129     3.896 r  static         s_OBUF[7]_inst_i_1/O
+                         net (fo=1, routed)           2.534     6.430    static         s_OBUF[7]
+    AU39                 OBUF (Prop_obuf_I_O)         2.131     8.561 r  static         s_OBUF[7]_inst/O
+                         net (fo=0)                   0.000     8.561    static         s[7]
+    AU39                                                              r  static         s[7] (OUT)
+  -------------------------------------------------------------------    ----------------------------------
+
+                         max delay                    9.000     9.000                   
+                         clock pessimism              0.000     9.000                     
+                         output delay                -0.000     9.000                     
+  -------------------------------------------------------------------
+                         required time                          9.000                     
+                         arrival time                          -8.561                     
+  -------------------------------------------------------------------
+                         slack                                  0.439                     
+
+Slack (MET) :             0.492ns  (required time - arrival time)
+  Source:                 a[4]
+                            (input port)
+  Destination:            s[6]
+  Path Group:             **default**
+  Path Type:              Max at Slow Process Corner
+  Requirement:            9.000ns  (MaxDelay Path 9.000ns)
+  Data Path Delay:        8.508ns  (logic 3.113ns (36.586%)  route 5.395ns (63.414%))
+  Logic Levels:           4  (CARRY4=1 IBUF=1 LUT6=1 OBUF=1)
+  Output Delay:           0.000ns
+  Timing Exception:       MaxDelay Path 9.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+    AW30                                              0.000     0.000 r  static         a[4] (IN)
+                         net (fo=0)                   0.000     0.000    static         a[4]
+    AW30                 IBUF (Prop_ibuf_I_O)         0.647     0.647 r  static         a_IBUF[4]_inst/O
+                         net (fo=8, routed)           1.886     2.533    boundary       ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst/I0
+    SLICE_X49Y53         LUT6 (Prop_lut6_I0_O)        0.043     2.576 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst/LUT6/O
+                         net (fo=1, routed)           0.000     2.576    reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst__0
+    SLICE_X49Y53         CARRY4 (Prop_carry4_S[0]_O[1])
+                                                      0.218     2.794 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighCarry[0].ChainHigh/O[1]
+                         net (fo=1, routed)           3.510     6.304    boundary       s[6]
+    AP42                 OBUF (Prop_obuf_I_O)         2.204     8.508 r  static         s[6]_OBUF_inst/O
+                         net (fo=0)                   0.000     8.508    static         s[6]_OBUF
+    AP42                                                              r  static         s[6] (OUT)
+  -------------------------------------------------------------------    ----------------------------------
+
+                         max delay                    9.000     9.000                   
+                         clock pessimism              0.000     9.000                     
+                         output delay                -0.000     9.000                     
+  -------------------------------------------------------------------
+                         required time                          9.000                     
+                         arrival time                          -8.508                     
+  -------------------------------------------------------------------
+                         slack                                  0.492                     
+
+Slack (MET) :             0.581ns  (required time - arrival time)
+  Source:                 a[0]
+                            (input port)
+  Destination:            s[0]
+  Path Group:             **default**
+  Path Type:              Max at Slow Process Corner
+  Requirement:            9.000ns  (MaxDelay Path 9.000ns)
+  Data Path Delay:        8.419ns  (logic 2.978ns (35.367%)  route 5.442ns (64.633%))
+  Logic Levels:           4  (CARRY4=1 IBUF=1 LUT6=1 OBUF=1)
+  Output Delay:           0.000ns
+  Timing Exception:       MaxDelay Path 9.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+    AV30                                              0.000     0.000 r  static         a[0] (IN)
+                         net (fo=0)                   0.000     0.000    static         a[0]
+    AV30                 IBUF (Prop_ibuf_I_O)         0.640     0.640 r  static         a_IBUF[0]_inst/O
+                         net (fo=6, estimated)        2.317     2.957    boundary       ReConfig/Gen_LUT[0].LowBit.BigAdd.LowLUT[0].PGLow/I1
+    SLICE_X49Y60         LUT6 (Prop_lut6_I1_O)        0.043     3.000 r  reconfigurable ReConfig/Gen_LUT[0].LowBit.BigAdd.LowLUT[0].PGLow/LUT6/O
+                         net (fo=1, routed)           0.000     3.000    reconfigurable ReConfig/Gen_LUT[0].LowBit.BigAdd.LowLUT[0].PGLow__0
+    SLICE_X49Y60         CARRY4 (Prop_carry4_S[0]_O[0])
+                                                      0.124     3.124 r  reconfigurable ReConfig/Gen_LUT[0].LowBit.BigAdd.LowCarry[0].ChainLow/O[0]
+                         net (fo=1, routed)           3.125     6.249    boundary       s[0]
+    AM39                 OBUF (Prop_obuf_I_O)         2.171     8.419 r  static         s[0]_OBUF_inst/O
+                         net (fo=0)                   0.000     8.419    static         s[0]_OBUF
+    AM39                                                              r  static         s[0] (OUT)
+  -------------------------------------------------------------------    ----------------------------------
+
+                         max delay                    9.000     9.000                   
+                         clock pessimism              0.000     9.000                     
+                         output delay                -0.000     9.000                     
+  -------------------------------------------------------------------
+                         required time                          9.000                     
+                         arrival time                          -8.419                     
+  -------------------------------------------------------------------
+                         slack                                  0.581                     
+
+Slack (MET) :             0.718ns  (required time - arrival time)
+  Source:                 a[4]
+                            (input port)
+  Destination:            s[5]
+  Path Group:             **default**
+  Path Type:              Max at Slow Process Corner
+  Requirement:            9.000ns  (MaxDelay Path 9.000ns)
+  Data Path Delay:        8.282ns  (logic 3.007ns (36.310%)  route 5.275ns (63.690%))
+  Logic Levels:           4  (CARRY4=1 IBUF=1 LUT6=1 OBUF=1)
+  Output Delay:           0.000ns
+  Timing Exception:       MaxDelay Path 9.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+    AW30                                              0.000     0.000 r  static         a[4] (IN)
+                         net (fo=0)                   0.000     0.000    static         a[4]
+    AW30                 IBUF (Prop_ibuf_I_O)         0.647     0.647 r  static         a_IBUF[4]_inst/O
+                         net (fo=8, routed)           1.886     2.533    boundary       ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst/I0
+    SLICE_X49Y53         LUT6 (Prop_lut6_I0_O)        0.043     2.576 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst/LUT6/O
+                         net (fo=1, routed)           0.000     2.576    reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst__0
+    SLICE_X49Y53         CARRY4 (Prop_carry4_S[0]_O[0])
+                                                      0.124     2.700 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighCarry[0].ChainHigh/O[0]
+                         net (fo=1, routed)           3.389     6.089    boundary       s[5]
+    AP41                 OBUF (Prop_obuf_I_O)         2.193     8.282 r  static         s[5]_OBUF_inst/O
+                         net (fo=0)                   0.000     8.282    static         s[5]_OBUF
+    AP41                                                              r  static         s[5] (OUT)
+  -------------------------------------------------------------------    ----------------------------------
+
+                         max delay                    9.000     9.000                   
+                         clock pessimism              0.000     9.000                     
+                         output delay                -0.000     9.000                     
+  -------------------------------------------------------------------
+                         required time                          9.000                     
+                         arrival time                          -8.282                     
+  -------------------------------------------------------------------
+                         slack                                  0.718                     
+
+Slack (MET) :             1.060ns  (required time - arrival time)
+  Source:                 a[3]
+                            (input port)
+  Destination:            s[3]
+  Path Group:             **default**
+  Path Type:              Max at Slow Process Corner
+  Requirement:            9.000ns  (MaxDelay Path 9.000ns)
+  Data Path Delay:        7.940ns  (logic 2.828ns (35.610%)  route 5.113ns (64.390%))
+  Logic Levels:           3  (IBUF=1 LUT6=1 OBUF=1)
+  Output Delay:           0.000ns
+  Timing Exception:       MaxDelay Path 9.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+    BA32                                              0.000     0.000 r  static         a[3] (IN)
+                         net (fo=0)                   0.000     0.000    static         a[3]
+    BA32                 IBUF (Prop_ibuf_I_O)         0.670     0.670 r  static         a_IBUF[3]_inst/O
+                         net (fo=9, routed)           1.969     2.639    boundary       ReConfig/Gen_LUT[1].MidBit.SmallAdd1.PGSmall/I3
+    SLICE_X49Y56         LUT6 (Prop_lut6_I3_O)        0.043     2.682 r  reconfigurable ReConfig/Gen_LUT[1].MidBit.SmallAdd1.PGSmall/LUT6/O
+                         net (fo=1, routed)           3.144     5.826    boundary       s[3]
+    AT37                 OBUF (Prop_obuf_I_O)         2.114     7.940 r  static         s[3]_OBUF_inst/O
+                         net (fo=0)                   0.000     7.940    static         s[3]_OBUF
+    AT37                                                              r  static         s[3] (OUT)
+  -------------------------------------------------------------------    ----------------------------------
+
+                         max delay                    9.000     9.000                   
+                         clock pessimism              0.000     9.000                     
+                         output delay                -0.000     9.000                     
+  -------------------------------------------------------------------
+                         required time                          9.000                     
+                         arrival time                          -7.940                     
+  -------------------------------------------------------------------
+                         slack                                  1.060                     
+
+Slack (MET) :             2.692ns  (required time - arrival time)
+  Source:                 a[3]
+                            (input port)
+  Destination:            s[4]
+  Path Group:             **default**
+  Path Type:              Max at Slow Process Corner
+  Requirement:            9.000ns  (MaxDelay Path 9.000ns)
+  Data Path Delay:        6.308ns  (logic 2.771ns (43.926%)  route 3.537ns (56.074%))
+  Logic Levels:           3  (IBUF=1 LUT6=1 OBUF=1)
+  Output Delay:           0.000ns
+  Timing Exception:       MaxDelay Path 9.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+    BA32                                              0.000     0.000 r  static         a[3] (IN)
+                         net (fo=0)                   0.000     0.000    static         a[3]
+    BA32                 IBUF (Prop_ibuf_I_O)         0.670     0.670 r  static         a_IBUF[3]_inst/O
+                         net (fo=9, routed)           1.849     2.519    boundary       ReConfig/Gen_LUT[2].MidBit.SmallAdd1.PGSmall/I1
+    SLICE_X50Y53         LUT6 (Prop_lut6_I1_O)        0.043     2.562 r  reconfigurable ReConfig/Gen_LUT[2].MidBit.SmallAdd1.PGSmall/LUT6/O
+                         net (fo=1, routed)           1.688     4.251    boundary       s[4]
+    AR35                 OBUF (Prop_obuf_I_O)         2.058     6.308 r  static         s[4]_OBUF_inst/O
+                         net (fo=0)                   0.000     6.308    static         s[4]_OBUF
+    AR35                                                              r  static         s[4] (OUT)
+  -------------------------------------------------------------------    ----------------------------------
+
+                         max delay                    9.000     9.000                   
+                         clock pessimism              0.000     9.000                     
+                         output delay                -0.000     9.000                     
+  -------------------------------------------------------------------
+                         required time                          9.000                     
+                         arrival time                          -6.308                     
+  -------------------------------------------------------------------
+                         slack                                  2.692                     
+
+
+
+
+

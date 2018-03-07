@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="Four_Bit_Cut1LUT_synth_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1519759029">
+  <File Type="PA-TCL" Name="RCA_Adder.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="RCA_Adder_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="RCA_Adder.vds"/>
+  <File Type="RDS-UTIL" Name="RCA_Adder_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="RCA_Adder_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="RCA_Adder.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="RCA_Adder_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="RCA_Adder_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Four_Bit_RCA_Cut1LUT">
+    <File Path="$PSRCDIR/Four_Bit_RCA_Cut1LUT/imports/Reconfig_Adders/Pkg_Functions.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pkg_Functions.vhd"/>
+        <Attr Name="ImportTime" Val="1512148680"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/Four_Bit_RCA_Cut1LUT/imports/Reconfig_Adders/4bit_RCA_cut1LUT.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/4bit_RCA_cut1LUT.vhd"/>
+        <Attr Name="ImportTime" Val="1519758109"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="RCA_Adder"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Four_Bit_RCA_Cut1LUT">
+    <File Path="$PSRCDIR/Four_Bit_RCA_Cut1LUT/imports/Reconfig_Adders/Pkg_Functions.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Pkg_Functions.vhd"/>
+        <Attr Name="ImportTime" Val="1512148680"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/Four_Bit_RCA_Cut1LUT/imports/Reconfig_Adders/4bit_RCA_cut1LUT.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/4bit_RCA_cut1LUT.vhd"/>
+        <Attr Name="ImportTime" Val="1519758109"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="RCA_Adder"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

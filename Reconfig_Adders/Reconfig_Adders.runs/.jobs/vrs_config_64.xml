@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Four_Bit_Cut2LUT_synth_1" LaunchDir="C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/Four_Bit_Cut2LUT_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Eight_Bit_Cut2LUT_synth_1" LaunchDir="C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_Cut2LUT_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Six_Bit_RCA_Cut2LUTshift_synth_1" LaunchDir="C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/Six_Bit_RCA_Cut2LUTshift_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Six_Bit_RCA_Cut1LUT_synth_1" LaunchDir="C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/Six_Bit_RCA_Cut1LUT_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Four_Bit_RCA_Cut1LUT_synth_1" LaunchDir="C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/Four_Bit_RCA_Cut1LUT_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="Four_Bit_Cut2LUT_synth_1"/>
+		<Parent Id="Eight_Bit_Cut2LUT_synth_1"/>
+		<Parent Id="Six_Bit_RCA_Cut2LUTshift_synth_1"/>
+		<Parent Id="Six_Bit_RCA_Cut1LUT_synth_1"/>
+		<Parent Id="Four_Bit_RCA_Cut1LUT_synth_1"/>
+	</Run>
+</Runs>
+

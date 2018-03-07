@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Eight_Bit_RCA_LUT_synth_1" LaunchDir="/afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_RCA_LUT_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Eight_Bit_QuAd_3113_synth_1" LaunchDir="/afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_QuAd_3113_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Eight_Bit_QuAd_116_synth_1" LaunchDir="/afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_QuAd_116_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Eight_Bit_QuAd_224_synth_1" LaunchDir="/afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_QuAd_224_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="Eight_Bit_RCA_LUT_synth_1"/>
+		<Parent Id="Eight_Bit_QuAd_3113_synth_1"/>
+		<Parent Id="Eight_Bit_QuAd_116_synth_1"/>
+		<Parent Id="Eight_Bit_QuAd_224_synth_1"/>
+	</Run>
+</Runs>
+
