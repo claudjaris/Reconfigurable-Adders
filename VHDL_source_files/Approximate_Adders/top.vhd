@@ -15,8 +15,6 @@ entity top is
 
     generic (
       N : positive := 4; --set bit width
-      R : positive := 2;  --used for GeAr Adder
-      P : positive := 2;  --used for GeAr Adder
       R_vect : my_array_t :=   (3,1); --used for QuAd Adder
       P_vect : my_array_t :=   (0,2); --used for QuAd Adder
       T : natural  :=  1); --set adder type 
