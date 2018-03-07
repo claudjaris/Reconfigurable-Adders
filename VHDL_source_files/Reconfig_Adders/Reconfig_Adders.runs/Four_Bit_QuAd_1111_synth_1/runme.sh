@@ -6,21 +6,25 @@
 # Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 # 
 
+echo "This script was generated under a different operating system."
+echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executing this script"
+exit
+
 if [ -z "$PATH" ]; then
-  PATH=/afs/pd.inf.tu-dresden.de/sw/Vivado-17.1/SDK/2017.1/bin:/afs/pd.inf.tu-dresden.de/sw/Vivado-17.1/Vivado/2017.1/ids_lite/ISE/bin/lin64:/afs/pd.inf.tu-dresden.de/sw/Vivado-17.1/Vivado/2017.1/bin
+  PATH=C:/Xilinx/Vivado/2017.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2017.1/bin
 else
-  PATH=/afs/pd.inf.tu-dresden.de/sw/Vivado-17.1/SDK/2017.1/bin:/afs/pd.inf.tu-dresden.de/sw/Vivado-17.1/Vivado/2017.1/ids_lite/ISE/bin/lin64:/afs/pd.inf.tu-dresden.de/sw/Vivado-17.1/Vivado/2017.1/bin:$PATH
+  PATH=C:/Xilinx/Vivado/2017.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2017.1/bin:$PATH
 fi
 export PATH
 
 if [ -z "$LD_LIBRARY_PATH" ]; then
-  LD_LIBRARY_PATH=/afs/pd.inf.tu-dresden.de/sw/Vivado-17.1/Vivado/2017.1/ids_lite/ISE/lib/lin64
+  LD_LIBRARY_PATH=
 else
-  LD_LIBRARY_PATH=/afs/pd.inf.tu-dresden.de/sw/Vivado-17.1/Vivado/2017.1/ids_lite/ISE/lib/lin64:$LD_LIBRARY_PATH
+  LD_LIBRARY_PATH=:$LD_LIBRARY_PATH
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.runs/Four_Bit_QuAd_1111_synth_1'
+HD_PWD='C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/Four_Bit_QuAd_1111_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

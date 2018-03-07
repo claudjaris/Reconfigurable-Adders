@@ -11,37 +11,38 @@
 source top.tcl -notrace
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
-INFO: [Project 1-454] Reading design checkpoint 'C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_Cut2LUT_synth_1/RCA_Adder.dcp' for cell 'ReConfig'
-WARNING: [filemgmt 56-12] File 'C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-8268-cfaed-pdpc004/dcp9/RCA_Adder.edf' cannot be added to the project because it already exists in the project, skipping this file
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_Cut2LUT_synth_1/RCA_Adder.dcp' for cell 'ReConfig'
+WARNING: [filemgmt 56-12] File 'C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-716-cfaed-pdpc004/dcp9/RCA_Adder.edf' cannot be added to the project because it already exists in the project, skipping this file
 INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2017.1
 INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-8268-cfaed-pdpc004/dcp7/top.xdc]
-INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:2]
-WARNING: [Vivado 12-4324] set_units: option 'digits' is deprecated, which may be removed from future release of software. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:6]
-INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:6]
-set_units: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1282.617 ; gain = 599.633
-Finished Parsing XDC File [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-8268-cfaed-pdpc004/dcp7/top.xdc]
+Parsing XDC File [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-716-cfaed-pdpc004/dcp7/top.xdc]
+WARNING: [Vivado 12-4324] set_units: option 'digits' is deprecated, which may be removed from future release of software. [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:4]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:4]
+WARNING: [Power 33-232] No user defined clocks were found in the design! [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:4]
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+set_units: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1282.785 ; gain = 606.520
+Finished Parsing XDC File [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-716-cfaed-pdpc004/dcp7/top.xdc]
 Reading XDEF placement.
 Reading placer database...
 Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 1282.617 ; gain = 0.000
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.110 . Memory (MB): peak = 1282.785 ; gain = 0.000
 Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 1282.617 ; gain = 0.000
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.115 . Memory (MB): peak = 1282.785 ; gain = 0.000
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 6 instances were transformed.
   LUT6_2 => LUT6_2 (LUT5, LUT6): 6 instances
 
-link_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 1282.617 ; gain = 1018.914
+link_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 1282.785 ; gain = 1019.938
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t-ffg1761'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t-ffg1761'
-INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -59 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -66 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 Attempting to get a license: PartialReconfiguration
-INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -59 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -66 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 Feature available: PartialReconfiguration
 Running DRC as a precondition to command opt_design
 
@@ -52,8 +53,7 @@ report_drc (run_mandatory_drcs) completed successfully
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.449 . Memory (MB): peak = 1282.617 ; gain = 0.000
-INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:2]
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.516 . Memory (MB): peak = 1282.785 ; gain = 0.000
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Starting Logic Optimization Task
@@ -63,58 +63,58 @@ INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
 Phase 1 Retarget | Checksum: 17233fa7a
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1282.617 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1282.785 ; gain = 0.000
 INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 Phase 2 Constant propagation | Checksum: 17233fa7a
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1282.617 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1282.785 ; gain = 0.000
 INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
 
 Phase 3 Sweep
 Phase 3 Sweep | Checksum: 16fd774cc
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1282.617 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1282.785 ; gain = 0.000
 INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
 
 Phase 4 BUFG optimization
 Phase 4 BUFG optimization | Checksum: 16fd774cc
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1282.617 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1282.785 ; gain = 0.000
 INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
 
 Phase 5 Shift Register Optimization
 Phase 5 Shift Register Optimization | Checksum: 16fd774cc
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1282.617 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1282.785 ; gain = 0.000
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1282.617 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1282.785 ; gain = 0.000
 Ending Logic Optimization Task | Checksum: 16fd774cc
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1282.617 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1282.785 ; gain = 0.000
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
 Ending Power Optimization Task | Checksum: 221758f9a
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1282.617 ; gain = 0.000
-27 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1282.785 ; gain = 0.000
+25 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1282.617 ; gain = 0.000
+opt_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1282.785 ; gain = 0.000
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.141 . Memory (MB): peak = 1282.617 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_opt.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.136 . Memory (MB): peak = 1282.785 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_opt.dcp' has been generated.
 Command: report_drc -file top_drc_opted.rpt
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_drc_opted.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_drc_opted.rpt.
 report_drc completed successfully
 INFO: [Chipscope 16-241] No debug cores found in the current design.
 Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
@@ -122,7 +122,7 @@ or use the create_debug_core and connect_debug_core Tcl commands to insert debug
 Command: place_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t-ffg1761'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t-ffg1761'
-INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -59 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -66 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 Command: report_drc (run_mandatory_drcs) for: incr_eco_checks
 INFO: [DRC 23-27] Running DRC with 2 threads
 report_drc (run_mandatory_drcs) completed successfully
@@ -141,86 +141,84 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1282.617 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1282.785 ; gain = 0.000
 Phase 1.1 Placer Initialization Netlist Sorting | Checksum: fc233e92
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1282.617 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1282.617 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1282.785 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1282.785 ; gain = 0.000
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
-INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:2]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: fc233e92
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1292.258 ; gain = 9.641
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1292.422 ; gain = 9.637
 
 Phase 1.3 Build Placer Netlist Model
 Phase 1.3 Build Placer Netlist Model | Checksum: 1172c490c
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1297.895 ; gain = 15.277
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1297.055 ; gain = 14.270
 
 Phase 1.4 Constrain Clocks/Macros
 Phase 1.4 Constrain Clocks/Macros | Checksum: 1172c490c
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1297.895 ; gain = 15.277
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1297.055 ; gain = 14.270
 Phase 1 Placer Initialization | Checksum: 1172c490c
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1297.895 ; gain = 15.277
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1297.055 ; gain = 14.270
 
 Phase 2 Global Placement
 Phase 2 Global Placement | Checksum: 191cc4640
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1297.895 ; gain = 15.277
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1297.055 ; gain = 14.270
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
 Phase 3.1 Commit Multi Column Macros | Checksum: 191cc4640
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1297.895 ; gain = 15.277
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1297.055 ; gain = 14.270
 
 Phase 3.2 Commit Most Macros & LUTRAMs
 Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 213569e26
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1297.895 ; gain = 15.277
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1297.055 ; gain = 14.270
 
 Phase 3.3 Area Swap Optimization
 Phase 3.3 Area Swap Optimization | Checksum: 213569e26
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1297.895 ; gain = 15.277
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1297.055 ; gain = 14.270
 
 Phase 3.4 Pipeline Register Optimization
 Phase 3.4 Pipeline Register Optimization | Checksum: 213569e26
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1297.895 ; gain = 15.277
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1297.055 ; gain = 14.270
 
 Phase 3.5 Timing Path Optimizer
 Phase 3.5 Timing Path Optimizer | Checksum: 213569e26
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1297.895 ; gain = 15.277
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1297.055 ; gain = 14.270
 
 Phase 3.6 Small Shape Detail Placement
 Phase 3.6 Small Shape Detail Placement | Checksum: 191731fb4
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1317.824 ; gain = 35.207
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1316.988 ; gain = 34.203
 
 Phase 3.7 Re-assign LUT pins
 Phase 3.7 Re-assign LUT pins | Checksum: 191731fb4
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1317.824 ; gain = 35.207
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1316.988 ; gain = 34.203
 
 Phase 3.8 Pipeline Register Optimization
 Phase 3.8 Pipeline Register Optimization | Checksum: 191731fb4
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1317.824 ; gain = 35.207
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1316.988 ; gain = 34.203
 Phase 3 Detail Placement | Checksum: 191731fb4
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1317.824 ; gain = 35.207
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1316.988 ; gain = 34.203
 
 Phase 4 Post Placement Optimization and Clean-Up
 
 Phase 4.1 Post Commit Optimization
-INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:2]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 Post Placement Optimization
@@ -231,51 +229,51 @@ INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximu
 INFO: [Place 46-41] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
 Phase 4.1.1.1 BUFG Insertion | Checksum: 191731fb4
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1342.547 ; gain = 59.930
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1340.957 ; gain = 58.172
 INFO: [Place 30-746] Post Placement Timing Summary WNS=0.228. For the most accurate timing information please run report_timing.
 Phase 4.1.1 Post Placement Optimization | Checksum: 161bf3eb7
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1342.547 ; gain = 59.930
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1340.957 ; gain = 58.172
 Phase 4.1 Post Commit Optimization | Checksum: 161bf3eb7
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1342.547 ; gain = 59.930
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1340.957 ; gain = 58.172
 
 Phase 4.2 Post Placement Cleanup
 Phase 4.2 Post Placement Cleanup | Checksum: 161bf3eb7
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1342.547 ; gain = 59.930
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1340.957 ; gain = 58.172
 
 Phase 4.3 Placer Reporting
 Phase 4.3 Placer Reporting | Checksum: 1e7a6ffe8
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1342.547 ; gain = 59.930
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1340.957 ; gain = 58.172
 
 Phase 4.4 Final Placement Cleanup
 Phase 4.4 Final Placement Cleanup | Checksum: 1e7a6ffe8
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1342.547 ; gain = 59.930
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1340.957 ; gain = 58.172
 Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1e7a6ffe8
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1342.547 ; gain = 59.930
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1340.957 ; gain = 58.172
 Ending Placer Task | Checksum: 1cc1a7866
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1342.547 ; gain = 59.930
-47 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1340.957 ; gain = 58.172
+43 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1342.547 ; gain = 59.930
+place_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1340.957 ; gain = 58.172
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 1342.547 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_placed.dcp' has been generated.
-report_io: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.172 . Memory (MB): peak = 1342.547 ; gain = 0.000
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.768 . Memory (MB): peak = 1342.547 ; gain = 0.000
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1342.547 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.102 . Memory (MB): peak = 1340.957 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.156 . Memory (MB): peak = 1340.957 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.743 . Memory (MB): peak = 1340.957 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1340.957 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t-ffg1761'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t-ffg1761'
-INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -59 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -66 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 Running DRC as a precondition to command route_design
 Command: report_drc (run_mandatory_drcs) for: router_checks
 INFO: [DRC 23-27] Running DRC with 2 threads
@@ -291,40 +289,40 @@ Checksum: PlaceDB: 71c57404 ConstDB: 0 ShapeSum: d46d4331 RouteDB: 85e7c131
 Phase 1 Build RT Design
 Phase 1 Build RT Design | Checksum: 1601ad82d
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:30 . Memory (MB): peak = 1719.895 ; gain = 377.348
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:31 . Memory (MB): peak = 1731.879 ; gain = 390.922
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
 Phase 2.1 Create Timer | Checksum: d0458abe
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:30 . Memory (MB): peak = 1719.895 ; gain = 377.348
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:31 . Memory (MB): peak = 1731.879 ; gain = 390.922
 
 Phase 2.2 Fix Topology Constraints
 Phase 2.2 Fix Topology Constraints | Checksum: d0458abe
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:30 . Memory (MB): peak = 1719.895 ; gain = 377.348
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:31 . Memory (MB): peak = 1731.879 ; gain = 390.922
 
 Phase 2.3 Pre Route Cleanup
 Phase 2.3 Pre Route Cleanup | Checksum: d0458abe
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:30 . Memory (MB): peak = 1719.895 ; gain = 377.348
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:31 . Memory (MB): peak = 1731.879 ; gain = 390.922
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
 Phase 2.4 Update Timing | Checksum: 239d8297a
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:31 . Memory (MB): peak = 1731.793 ; gain = 389.246
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1739.773 ; gain = 398.816
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.130  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
 Phase 2 Router Initialization | Checksum: 2588ad43c
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:31 . Memory (MB): peak = 1731.793 ; gain = 389.246
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1739.773 ; gain = 398.816
 
 Phase 3 Initial Routing
 Phase 3 Initial Routing | Checksum: 1cd953500
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 
 Phase 4 Rip-up And Reroute
 
@@ -335,25 +333,25 @@ INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.143  | TNS=0.000  | WHS
 
 Phase 4.1 Global Iteration 0 | Checksum: 1d3f34f28
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 Phase 4 Rip-up And Reroute | Checksum: 1d3f34f28
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
 Phase 5.1 Delay CleanUp | Checksum: 1d3f34f28
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 
 Phase 5.2 Clock Skew Optimization
 Phase 5.2 Clock Skew Optimization | Checksum: 1d3f34f28
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 Phase 5 Delay and Skew Optimization | Checksum: 1d3f34f28
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 
 Phase 6 Post Hold Fix
 
@@ -362,15 +360,15 @@ Phase 6.1 Hold Fix Iter
 Phase 6.1.1 Update Timing
 Phase 6.1.1 Update Timing | Checksum: 1d3f34f28
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.143  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
 Phase 6.1 Hold Fix Iter | Checksum: 1d3f34f28
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 Phase 6 Post Hold Fix | Checksum: 1d3f34f28
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 
 Phase 7 Route finalize
 
@@ -387,19 +385,19 @@ Router Utilization Summary
 
 Phase 7 Route finalize | Checksum: 20885dd41
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
 Phase 8 Verifying routed nets | Checksum: 20885dd41
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 
 Phase 9 Depositing Routes
 Phase 9 Depositing Routes | Checksum: 20885dd41
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 
 Phase 10 Post Router Timing
 INFO: [Route 35-57] Estimated Timing Summary | WNS=0.143  | TNS=0.000  | WHS=N/A    | THS=N/A    |
@@ -407,38 +405,38 @@ INFO: [Route 35-57] Estimated Timing Summary | WNS=0.143  | TNS=0.000  | WHS=N/A
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
 Phase 10 Post Router Timing | Checksum: 20885dd41
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:31 . Memory (MB): peak = 1740.055 ; gain = 397.508
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:32 . Memory (MB): peak = 1749.039 ; gain = 408.082
 
 Routing Is Done.
-60 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+56 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:37 . Memory (MB): peak = 1740.055 ; gain = 397.508
+route_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:38 . Memory (MB): peak = 1749.039 ; gain = 408.082
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.122 . Memory (MB): peak = 1740.055 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_routed.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.102 . Memory (MB): peak = 1749.039 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_routed.dcp' has been generated.
 Command: report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_drc_routed.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_drc_routed.rpt.
 report_drc completed successfully
 Command: report_methodology -file top_methodology_drc_routed.rpt -rpx top_methodology_drc_routed.rpx
-INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:2]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
-INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_methodology_drc_routed.rpt.
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_methodology_drc_routed.rpt.
 report_methodology completed successfully
 Command: report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
-INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:2]
+WARNING: [Power 33-232] No user defined clocks were found in the design!
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Running Vector-less Activity Propagation...
 
 Finished Running Vector-less Activity Propagation
-69 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+63 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
@@ -446,9 +444,9 @@ Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.147 . Memory (MB): peak = 1740.055 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/ReConfig_Eight_Bit_Cut2LUT_routed.dcp' has been generated.
-INFO: [Common 17-206] Exiting Vivado at Wed Feb 28 12:03:18 2018...
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.130 . Memory (MB): peak = 1749.039 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/ReConfig_Eight_Bit_Cut2LUT_routed.dcp' has been generated.
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  7 17:00:11 2018...
 
 *** Running vivado
     with args -log top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
@@ -460,46 +458,46 @@ INFO: [Common 17-206] Exiting Vivado at Wed Feb 28 12:03:18 2018...
     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 
 source top.tcl -notrace
-Command: pr_verify -full_check -initial C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/impl_1/top_routed.dcp -additional C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_routed.dcp -file child_0_impl_1_pr_verify.log
+Command: pr_verify -full_check -initial C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/impl_1/top_routed.dcp -additional C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_routed.dcp -file child_0_impl_1_pr_verify.log
 INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2017.1
 INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-9080-cfaed-pdpc004/dcp3/top.xdc]
-WARNING: [Vivado 12-4324] set_units: option 'digits' is deprecated, which may be removed from future release of software. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:6]
-INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:6]
-WARNING: [Power 33-232] No user defined clocks were found in the design! [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:6]
+Parsing XDC File [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-10308-cfaed-pdpc004/dcp3/top.xdc]
+WARNING: [Vivado 12-4324] set_units: option 'digits' is deprecated, which may be removed from future release of software. [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:4]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:4]
+WARNING: [Power 33-232] No user defined clocks were found in the design! [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:4]
 Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
-set_units: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1280.043 ; gain = 617.082
-Finished Parsing XDC File [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-9080-cfaed-pdpc004/dcp3/top.xdc]
+set_units: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1278.496 ; gain = 615.070
+Finished Parsing XDC File [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-10308-cfaed-pdpc004/dcp3/top.xdc]
 Reading XDEF placement.
 Reading placer database...
 Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 1280.043 ; gain = 0.000
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.103 . Memory (MB): peak = 1278.496 ; gain = 0.000
 Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 1280.043 ; gain = 0.000
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.103 . Memory (MB): peak = 1278.496 ; gain = 0.000
 INFO: [Project 1-604] Checkpoint was created with Vivado v2017.1 (64-bit) build 1846317
-INFO: [Vivado 12-3501] pr_verify C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/impl_1/top_routed.dcp C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_routed.dcp
+INFO: [Vivado 12-3501] pr_verify C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/impl_1/top_routed.dcp C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_routed.dcp
 INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2017.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-9080-cfaed-pdpc004/dcp7/top.xdc]
-WARNING: [Vivado 12-4324] set_units: option 'digits' is deprecated, which may be removed from future release of software. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:6]
-INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:6]
-WARNING: [Power 33-232] No user defined clocks were found in the design! [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:6]
+Parsing XDC File [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-10308-cfaed-pdpc004/dcp7/top.xdc]
+WARNING: [Vivado 12-4324] set_units: option 'digits' is deprecated, which may be removed from future release of software. [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:4]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:4]
+WARNING: [Power 33-232] No user defined clocks were found in the design! [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:4]
 Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
-Finished Parsing XDC File [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-9080-cfaed-pdpc004/dcp7/top.xdc]
+Finished Parsing XDC File [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-10308-cfaed-pdpc004/dcp7/top.xdc]
 Reading XDEF placement.
 Reading placer database...
 Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.109 . Memory (MB): peak = 1421.762 ; gain = 0.000
-Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.110 . Memory (MB): peak = 1421.762 ; gain = 0.000
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.098 . Memory (MB): peak = 1421.211 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.098 . Memory (MB): peak = 1421.211 ; gain = 0.000
 INFO: [Project 1-604] Checkpoint was created with Vivado v2017.1 (64-bit) build 1846317
 INFO: [Constraints 18-1020] PR Verify Summary:
-DCP1: C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/impl_1/top_routed.dcp
+DCP1: C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/impl_1/top_routed.dcp
   Number of reconfigurable modules compared = 1
   Number of partition pins compared         = 26
   Number of static tiles compared           = 969
@@ -508,7 +506,7 @@ DCP1: C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reco
   Number of static routed nodes compared    = 263
   Number of static routed pips compared     = 245
 
-DCP2: C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_routed.dcp
+DCP2: C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_routed.dcp
   Number of reconfigurable modules compared = 1
   Number of partition pins compared         = 26
   Number of static tiles compared           = 969
@@ -516,28 +514,29 @@ DCP2: C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reco
   Number of static cells compared           = 17
   Number of static routed nodes compared    = 263
   Number of static routed pips compared     = 245
-INFO: [Vivado 12-3253] PR_VERIFY: check points C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/impl_1/top_routed.dcp and C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_routed.dcp are compatible
-pr_verify: Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 1421.762 ; gain = 1202.289
+INFO: [Vivado 12-3253] PR_VERIFY: check points C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/impl_1/top_routed.dcp and C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/top_routed.dcp are compatible
+pr_verify: Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 1421.211 ; gain = 1201.430
 Command: open_checkpoint top_routed.dcp
 
 Starting open_checkpoint Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1421.762 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1421.211 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2017.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-9080-cfaed-pdpc004/dcp11/top.xdc]
-INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:2]
-WARNING: [Vivado 12-4324] set_units: option 'digits' is deprecated, which may be removed from future release of software. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:6]
-INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:6]
-Finished Parsing XDC File [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-9080-cfaed-pdpc004/dcp11/top.xdc]
+Parsing XDC File [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-10308-cfaed-pdpc004/dcp11/top.xdc]
+WARNING: [Vivado 12-4324] set_units: option 'digits' is deprecated, which may be removed from future release of software. [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:4]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:4]
+WARNING: [Power 33-232] No user defined clocks were found in the design! [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/constrs_1/imports/new/timing_constraints.xdc:4]
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Finished Parsing XDC File [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_0_impl_1/.Xil/Vivado-10308-cfaed-pdpc004/dcp11/top.xdc]
 Reading XDEF placement.
 Reading placer database...
 Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.104 . Memory (MB): peak = 1421.762 ; gain = 0.000
-Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.104 . Memory (MB): peak = 1421.762 ; gain = 0.000
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.098 . Memory (MB): peak = 1421.211 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.098 . Memory (MB): peak = 1421.211 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 6 instances were transformed.
   LUT6_2 => LUT6_2 (LUT5, LUT6): 6 instances
@@ -546,9 +545,9 @@ INFO: [Project 1-604] Checkpoint was created with Vivado v2017.1 (64-bit) build 
 Command: write_bitstream -force -cell ReConfig ReConfig_Eight_Bit_Cut2LUT_partial.bit
 Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t-ffg1761'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t-ffg1761'
-INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -59 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -66 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 Attempting to get a license: PartialReconfiguration
-INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -59 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -66 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 Feature available: PartialReconfiguration
 Running DRC as a precondition to command write_bitstream
 Command: report_drc (run_mandatory_drcs) for: bitstream_checks
@@ -609,7 +608,7 @@ Creating bitstream...
 Partial bitstream contains 2601344 bits.
 Writing bitstream ./ReConfig_Eight_Bit_Cut2LUT_partial.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
-34 Infos, 36 Warnings, 0 Critical Warnings and 0 Errors encountered.
+33 Infos, 37 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 1790.340 ; gain = 368.578
-INFO: [Common 17-206] Exiting Vivado at Wed Feb 28 13:43:03 2018...
+write_bitstream: Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 1788.801 ; gain = 367.590
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  7 17:11:34 2018...

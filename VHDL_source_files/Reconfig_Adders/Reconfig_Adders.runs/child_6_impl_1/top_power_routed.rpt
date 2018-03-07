@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
-| Date             : Wed Feb 28 12:08:43 2018
+| Date             : Wed Mar  7 17:05:39 2018
 | Host             : cfaed-pdpc004 running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
@@ -29,36 +29,35 @@ Table of Contents
 1. Summary
 ----------
 
-+--------------------------+------------+
-| Total On-Chip Power (uW) | 246254.219 |
-| Dynamic (uW)             | 4162.969   |
-| Device Static (uW)       | 242091.250 |
-| Effective TJA (C/W)      | 1.1        |
-| Max Ambient (C)          | 84.7       |
-| Junction Temperature (C) | 25.3       |
-| Confidence Level         | Low        |
-| Setting File             | ---        |
-| Simulation Activity File | ---        |
-| Design Nets Matched      | NA         |
-+--------------------------+------------+
++--------------------------+-------------+
+| Total On-Chip Power (uW) | 4144411.000 |
+| Dynamic (uW)             | 3871553.250 |
+| Device Static (uW)       | 272857.688  |
+| Effective TJA (C/W)      | 1.1         |
+| Max Ambient (C)          | 80.3        |
+| Junction Temperature (C) | 29.7        |
+| Confidence Level         | Low         |
+| Setting File             | ---         |
+| Simulation Activity File | ---         |
+| Design Nets Matched      | NA          |
++--------------------------+-------------+
 
 
 1.1 On-Chip Components
 ----------------------
 
-+----------------+------------+----------+-----------+-----------------+
-| On-Chip        | Power (uW) | Used     | Available | Utilization (%) |
-+----------------+------------+----------+-----------+-----------------+
-| Clocks         |     0.000  |        3 |       --- |             --- |
-| Slice Logic    |    44.301  |       16 |       --- |             --- |
-|   LUT as Logic |    41.729  |        7 |    303600 |           <0.01 |
-|   CARRY4       |     2.572  |        1 |     75900 |           <0.01 |
-|   Others       |     0.000  |        2 |       --- |             --- |
-| Signals        |   341.304  |       18 |       --- |             --- |
-| I/O            |  3777.356  |       16 |       700 |            2.29 |
-| Static Power   | 242091.250 |          |           |                 |
-| Total          | 246254.219 |          |           |                 |
-+----------------+------------+----------+-----------+-----------------+
++----------------+-------------+----------+-----------+-----------------+
+| On-Chip        | Power (uW)  | Used     | Available | Utilization (%) |
++----------------+-------------+----------+-----------+-----------------+
+| Slice Logic    | 41199.906   |       16 |       --- |             --- |
+|   LUT as Logic | 38808.344   |        7 |    303600 |           <0.01 |
+|   CARRY4       |  2391.565   |        1 |     75900 |           <0.01 |
+|   Others       |     0.000   |        2 |       --- |             --- |
+| Signals        | 317412.719  |       18 |       --- |             --- |
+| I/O            | 3512940.750 |       16 |       700 |            2.29 |
+| Static Power   | 272857.688  |          |           |                 |
+| Total          | 4144411.250 |          |           |                 |
++----------------+-------------+----------+-----------+-----------------+
 
 
 1.2 Power Supply Summary
@@ -67,16 +66,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.134 |       0.000 |      0.134 |
-| Vccaux    |       1.800 |     0.038 |       0.000 |      0.038 |
+| Vccint    |       1.000 |     0.553 |       0.391 |      0.162 |
+| Vccaux    |       1.800 |     0.321 |       0.283 |      0.038 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
-| Vcco18    |       1.800 |     0.003 |       0.002 |      0.001 |
+| Vcco18    |       1.800 |     1.652 |       1.651 |      0.001 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.003 |       0.000 |      0.003 |
+| Vccbram   |       1.000 |     0.004 |       0.000 |      0.004 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
@@ -135,17 +134,17 @@ Table of Contents
 3.1 By Hierarchy
 ----------------
 
-+----------------------------------------------------------------+------------+
-| Name                                                           | Power (uW) |
-+----------------------------------------------------------------+------------+
-| top                                                            |  4162.961  |
-|   ReConfig                                                     |   237.856  |
-|     Gen_LUT[0].LowBit.SmallAdd1.PGSmall                        |    44.344  |
-|     Gen_LUT[1].MidBit.SmallAdd1.PGSmall                        |    46.657  |
-|     Gen_LUT[2].MidBit.SmallAdd2.PGSmall                        |    74.580  |
-|     Gen_LUT[3].HighBit.BigAdd.HighLUT[4].FirstHigh.PGHighFirst |     6.705  |
-|     Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh     |     5.493  |
-|     s1                                                         |     4.465  |
-+----------------------------------------------------------------+------------+
++----------------------------------------------------------------+-------------+
+| Name                                                           | Power (uW)  |
++----------------------------------------------------------------+-------------+
+| top                                                            | 3871553.500 |
+|   ReConfig                                                     | 221205.719  |
+|     Gen_LUT[0].LowBit.SmallAdd1.PGSmall                        | 41239.648   |
+|     Gen_LUT[1].MidBit.SmallAdd1.PGSmall                        | 43390.773   |
+|     Gen_LUT[2].MidBit.SmallAdd2.PGSmall                        | 69359.727   |
+|     Gen_LUT[3].HighBit.BigAdd.HighLUT[4].FirstHigh.PGHighFirst |  6236.045   |
+|     Gen_LUT[3].HighBit.BigAdd.HighLUT[5].OthersHigh.PGHigh     |  5108.438   |
+|     s1                                                         |  4152.500   |
++----------------------------------------------------------------+-------------+
 
 

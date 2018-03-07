@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
-| Date         : Wed Feb 28 12:05:07 2018
+| Date         : Wed Mar  7 17:02:08 2018
 | Host         : cfaed-pdpc004 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -warn_on_violation -max_paths 10 -file top_timing_summary_routed.rpt -rpx top_timing_summary_routed.rpx
 | Design       : top
@@ -136,10 +136,6 @@ All user specified timing constraints are met.
 | Clock Summary
 | -------------
 ------------------------------------------------------------------------------------------------
-
-Clock  Waveform(ns)         Period(ns)      Frequency(MHz)
------  ------------         ----------      --------------
-clk    {0.000 4.650}        9.300           107.527         
 
 
 ------------------------------------------------------------------------------------------------
@@ -301,14 +297,14 @@ Slack (MET) :             0.439ns  (required time - arrival time)
   -------------------------------------------------------------------
                          slack                                  0.439                     
 
-Slack (MET) :             0.492ns  (required time - arrival time)
+Slack (MET) :             0.490ns  (required time - arrival time)
   Source:                 a[4]
                             (input port)
   Destination:            s[6]
   Path Group:             **default**
   Path Type:              Max at Slow Process Corner
   Requirement:            9.000ns  (MaxDelay Path 9.000ns)
-  Data Path Delay:        8.508ns  (logic 3.113ns (36.586%)  route 5.395ns (63.414%))
+  Data Path Delay:        8.510ns  (logic 3.113ns (36.578%)  route 5.397ns (63.422%))
   Logic Levels:           4  (CARRY4=1 IBUF=1 LUT6=1 OBUF=1)
   Output Delay:           0.000ns
   Timing Exception:       MaxDelay Path 9.000ns
@@ -318,14 +314,14 @@ Slack (MET) :             0.492ns  (required time - arrival time)
     AW30                                              0.000     0.000 r  static         a[4] (IN)
                          net (fo=0)                   0.000     0.000    static         a[4]
     AW30                 IBUF (Prop_ibuf_I_O)         0.647     0.647 r  static         a_IBUF[4]_inst/O
-                         net (fo=8, routed)           1.886     2.533    boundary       ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst/I0
-    SLICE_X49Y53         LUT6 (Prop_lut6_I0_O)        0.043     2.576 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst/LUT6/O
-                         net (fo=1, routed)           0.000     2.576    reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst__0
+                         net (fo=8, routed)           1.888     2.535    boundary       ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst/I0
+    SLICE_X49Y53         LUT6 (Prop_lut6_I0_O)        0.043     2.578 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst/LUT6/O
+                         net (fo=1, routed)           0.000     2.578    reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst__0
     SLICE_X49Y53         CARRY4 (Prop_carry4_S[0]_O[1])
-                                                      0.218     2.794 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighCarry[0].ChainHigh/O[1]
-                         net (fo=1, routed)           3.510     6.304    boundary       s[6]
-    AP42                 OBUF (Prop_obuf_I_O)         2.204     8.508 r  static         s[6]_OBUF_inst/O
-                         net (fo=0)                   0.000     8.508    static         s[6]_OBUF
+                                                      0.218     2.796 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighCarry[0].ChainHigh/O[1]
+                         net (fo=1, routed)           3.510     6.306    boundary       s[6]
+    AP42                 OBUF (Prop_obuf_I_O)         2.204     8.510 r  static         s[6]_OBUF_inst/O
+                         net (fo=0)                   0.000     8.510    static         s[6]_OBUF
     AP42                                                              r  static         s[6] (OUT)
   -------------------------------------------------------------------    ----------------------------------
 
@@ -334,9 +330,9 @@ Slack (MET) :             0.492ns  (required time - arrival time)
                          output delay                -0.000     9.000                     
   -------------------------------------------------------------------
                          required time                          9.000                     
-                         arrival time                          -8.508                     
+                         arrival time                          -8.510                     
   -------------------------------------------------------------------
-                         slack                                  0.492                     
+                         slack                                  0.490                     
 
 Slack (MET) :             0.581ns  (required time - arrival time)
   Source:                 a[0]
@@ -375,14 +371,14 @@ Slack (MET) :             0.581ns  (required time - arrival time)
   -------------------------------------------------------------------
                          slack                                  0.581                     
 
-Slack (MET) :             0.718ns  (required time - arrival time)
+Slack (MET) :             0.716ns  (required time - arrival time)
   Source:                 a[4]
                             (input port)
   Destination:            s[5]
   Path Group:             **default**
   Path Type:              Max at Slow Process Corner
   Requirement:            9.000ns  (MaxDelay Path 9.000ns)
-  Data Path Delay:        8.282ns  (logic 3.007ns (36.310%)  route 5.275ns (63.690%))
+  Data Path Delay:        8.284ns  (logic 3.007ns (36.302%)  route 5.277ns (63.698%))
   Logic Levels:           4  (CARRY4=1 IBUF=1 LUT6=1 OBUF=1)
   Output Delay:           0.000ns
   Timing Exception:       MaxDelay Path 9.000ns
@@ -392,14 +388,14 @@ Slack (MET) :             0.718ns  (required time - arrival time)
     AW30                                              0.000     0.000 r  static         a[4] (IN)
                          net (fo=0)                   0.000     0.000    static         a[4]
     AW30                 IBUF (Prop_ibuf_I_O)         0.647     0.647 r  static         a_IBUF[4]_inst/O
-                         net (fo=8, routed)           1.886     2.533    boundary       ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst/I0
-    SLICE_X49Y53         LUT6 (Prop_lut6_I0_O)        0.043     2.576 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst/LUT6/O
-                         net (fo=1, routed)           0.000     2.576    reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst__0
+                         net (fo=8, routed)           1.888     2.535    boundary       ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst/I0
+    SLICE_X49Y53         LUT6 (Prop_lut6_I0_O)        0.043     2.578 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst/LUT6/O
+                         net (fo=1, routed)           0.000     2.578    reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighLUT[5].FirstHigh.PGHighFirst__0
     SLICE_X49Y53         CARRY4 (Prop_carry4_S[0]_O[0])
-                                                      0.124     2.700 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighCarry[0].ChainHigh/O[0]
-                         net (fo=1, routed)           3.389     6.089    boundary       s[5]
-    AP41                 OBUF (Prop_obuf_I_O)         2.193     8.282 r  static         s[5]_OBUF_inst/O
-                         net (fo=0)                   0.000     8.282    static         s[5]_OBUF
+                                                      0.124     2.702 r  reconfigurable ReConfig/Gen_LUT[3].HighBit.BigAdd.HighCarry[0].ChainHigh/O[0]
+                         net (fo=1, routed)           3.389     6.091    boundary       s[5]
+    AP41                 OBUF (Prop_obuf_I_O)         2.193     8.284 r  static         s[5]_OBUF_inst/O
+                         net (fo=0)                   0.000     8.284    static         s[5]_OBUF
     AP41                                                              r  static         s[5] (OUT)
   -------------------------------------------------------------------    ----------------------------------
 
@@ -408,9 +404,9 @@ Slack (MET) :             0.718ns  (required time - arrival time)
                          output delay                -0.000     9.000                     
   -------------------------------------------------------------------
                          required time                          9.000                     
-                         arrival time                          -8.282                     
+                         arrival time                          -8.284                     
   -------------------------------------------------------------------
-                         slack                                  0.718                     
+                         slack                                  0.716                     
 
 Slack (MET) :             1.060ns  (required time - arrival time)
   Source:                 a[3]

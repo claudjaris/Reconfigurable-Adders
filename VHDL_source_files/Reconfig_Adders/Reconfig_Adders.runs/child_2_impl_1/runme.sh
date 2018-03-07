@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/child_2_impl_1'
+HD_PWD='C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/child_2_impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

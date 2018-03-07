@@ -9,15 +9,15 @@ create_project -in_memory -part xc7vx485tffg1761-2
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.cache/wt [current_project]
-set_property parent.project_path C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.cache/wt [current_project]
+set_property parent.project_path C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo c:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.cache/ip [current_project]
+set_property ip_output_repo c:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_Cut2LUT/imports/new/Pkg_Functions.vhd
-  C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_Cut2LUT/imports/new/4bit_RCA_cut2LUT.vhd
+  C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_Cut2LUT/imports/new/Pkg_Functions.vhd
+  C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_Cut2LUT/imports/new/4bit_RCA_cut2LUT.vhd
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

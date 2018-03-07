@@ -2,55 +2,55 @@
 # Vivado v2017.1 (64-bit)
 # SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
 # IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
-# Start of session at: Wed Feb 28 11:39:01 2018
-# Process ID: 10952
-# Current directory: C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/Four_Bit_RCA_LUT_synth_1
+# Start of session at: Wed Mar  7 16:54:37 2018
+# Process ID: 4424
+# Current directory: C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/Four_Bit_RCA_LUT_synth_1
 # Command line: vivado.exe -log RCA_Adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RCA_Adder.tcl
-# Log file: C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/Four_Bit_RCA_LUT_synth_1/RCA_Adder.vds
-# Journal file: C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/Four_Bit_RCA_LUT_synth_1\vivado.jou
+# Log file: C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/Four_Bit_RCA_LUT_synth_1/RCA_Adder.vds
+# Journal file: C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/Four_Bit_RCA_LUT_synth_1\vivado.jou
 #-----------------------------------------------------------
 source RCA_Adder.tcl -notrace
 Command: synth_design -top RCA_Adder -part xc7vx485tffg1761-2 -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t-ffg1761'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t-ffg1761'
-INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -59 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -66 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 6680 
+INFO: Helper process launched with PID 2560 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 342.633 ; gain = 74.465
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 342.918 ; gain = 75.207
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'RCA_Adder' [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'RCA_Adder' [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:22]
 	Parameter INIT bound to: 64'b0110011001100110011001100110011001100110011001100110011001100110 
-INFO: [Synth 8-113] binding component instance 'PG' to cell 'LUT6_2' [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:51]
+INFO: [Synth 8-113] binding component instance 'PG' to cell 'LUT6_2' [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:50]
 	Parameter INIT bound to: 64'b0110011001100110011001100110011001100110011001100110011001100110 
-INFO: [Synth 8-113] binding component instance 'PG' to cell 'LUT6_2' [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:51]
+INFO: [Synth 8-113] binding component instance 'PG' to cell 'LUT6_2' [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:50]
 	Parameter INIT bound to: 64'b0110011001100110011001100110011001100110011001100110011001100110 
-INFO: [Synth 8-113] binding component instance 'PG' to cell 'LUT6_2' [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:51]
+INFO: [Synth 8-113] binding component instance 'PG' to cell 'LUT6_2' [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:50]
 	Parameter INIT bound to: 64'b0110011001100110011001100110011001100110011001100110011001100110 
-INFO: [Synth 8-113] binding component instance 'PG' to cell 'LUT6_2' [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:51]
+INFO: [Synth 8-113] binding component instance 'PG' to cell 'LUT6_2' [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:50]
 	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
-INFO: [Synth 8-113] binding component instance 's1' to cell 'LUT6_2' [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:66]
+INFO: [Synth 8-113] binding component instance 's1' to cell 'LUT6_2' [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:66]
 	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
-INFO: [Synth 8-113] binding component instance 's2' to cell 'LUT6_2' [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:81]
-INFO: [Synth 8-113] binding component instance 'Chain' to cell 'CARRY4' [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:99]
-INFO: [Synth 8-256] done synthesizing module 'RCA_Adder' (1#1) [C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:22]
+INFO: [Synth 8-113] binding component instance 's2' to cell 'LUT6_2' [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:81]
+INFO: [Synth 8-113] binding component instance 'Chain' to cell 'CARRY4' [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:99]
+INFO: [Synth 8-256] done synthesizing module 'RCA_Adder' (1#1) [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Four_Bit_RCA_LUT/imports/new/4bit_RCA_LUT.vhd:22]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 381.961 ; gain = 113.793
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 382.242 ; gain = 114.531
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 381.961 ; gain = 113.793
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 382.242 ; gain = 114.531
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7vx485tffg1761-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 381.961 ; gain = 113.793
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 382.242 ; gain = 114.531
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 381.961 ; gain = 113.793
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 382.242 ; gain = 114.531
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -87,7 +87,7 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 627.855 ; gain = 359.688
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 628.137 ; gain = 360.426
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -100,7 +100,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 627.855 ; gain = 359.688
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 628.137 ; gain = 360.426
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -112,7 +112,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 632.453 ; gain = 364.285
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 628.137 ; gain = 360.426
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -136,7 +136,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 632.453 ; gain = 364.285
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 628.137 ; gain = 360.426
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -149,7 +149,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 632.453 ; gain = 364.285
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 628.137 ; gain = 360.426
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -161,25 +161,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 632.453 ; gain = 364.285
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 628.137 ; gain = 360.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 632.453 ; gain = 364.285
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 628.137 ; gain = 360.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 632.453 ; gain = 364.285
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 628.137 ; gain = 360.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 632.453 ; gain = 364.285
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 628.137 ; gain = 360.426
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -206,11 +206,11 @@ Report Instance Areas:
 |1     |top      |       |     7|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 632.453 ; gain = 364.285
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 628.137 ; gain = 360.426
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 632.453 ; gain = 364.285
-Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 632.453 ; gain = 364.285
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 628.137 ; gain = 360.426
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 628.137 ; gain = 360.426
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -222,9 +222,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 18 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 729.734 ; gain = 475.008
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 719.992 ; gain = 464.844
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.runs/Four_Bit_RCA_LUT_synth_1/RCA_Adder.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1263.832 ; gain = 534.098
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1263.832 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Wed Feb 28 11:39:54 2018...
+INFO: [Common 17-1381] The checkpoint 'C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/Four_Bit_RCA_LUT_synth_1/RCA_Adder.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1254.125 ; gain = 534.133
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1254.125 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  7 16:55:28 2018...

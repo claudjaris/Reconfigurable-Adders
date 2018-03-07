@@ -4,7 +4,7 @@
 
 
 ****** Vivado v2017.1 (64-bit)
-  **** SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
   **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 
@@ -13,33 +13,33 @@ Command: synth_design -top RCA_Adder -part xc7vx485tffg1761-2 -mode out_of_conte
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t-ffg1761'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t-ffg1761'
-INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -39 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -66 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 23589 
+INFO: Helper process launched with PID 5188 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1225.574 ; gain = 75.992 ; free physical = 16448 ; free virtual = 40482
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 342.539 ; gain = 74.113
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'RCA_Adder' [/afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.srcs/Six_Bit_RCA_basic/imports/new/6bit_RCA_basic.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'RCA_Adder' [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Six_Bit_RCA_basic/imports/new/6bit_RCA_basic.vhd:22]
 	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
-INFO: [Synth 8-113] binding component instance 's1' to cell 'LUT6_2' [/afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.srcs/Six_Bit_RCA_basic/imports/new/6bit_RCA_basic.vhd:30]
-INFO: [Synth 8-256] done synthesizing module 'RCA_Adder' (1#1) [/afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.srcs/Six_Bit_RCA_basic/imports/new/6bit_RCA_basic.vhd:22]
+INFO: [Synth 8-113] binding component instance 's1' to cell 'LUT6_2' [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Six_Bit_RCA_basic/imports/new/6bit_RCA_basic.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'RCA_Adder' (1#1) [C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.srcs/Six_Bit_RCA_basic/imports/new/6bit_RCA_basic.vhd:22]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1266.074 ; gain = 116.492 ; free physical = 16457 ; free virtual = 40490
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 381.867 ; gain = 113.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1266.074 ; gain = 116.492 ; free physical = 16457 ; free virtual = 40491
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 381.867 ; gain = 113.441
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7vx485tffg1761-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1274.078 ; gain = 124.496 ; free physical = 16457 ; free virtual = 40491
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 381.867 ; gain = 113.441
 ---------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1282.086 ; gain = 132.504 ; free physical = 16457 ; free virtual = 40491
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 381.867 ; gain = 113.441
+---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -81,7 +81,7 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:30 . Memory (MB): peak = 1506.336 ; gain = 356.754 ; free physical = 16113 ; free virtual = 40222
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 613.742 ; gain = 345.316
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -94,7 +94,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:30 . Memory (MB): peak = 1506.336 ; gain = 356.754 ; free physical = 16113 ; free virtual = 40222
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 613.742 ; gain = 345.316
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -106,7 +106,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:30 . Memory (MB): peak = 1514.344 ; gain = 364.762 ; free physical = 16111 ; free virtual = 40220
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 622.477 ; gain = 354.051
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -130,7 +130,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:31 . Memory (MB): peak = 1514.344 ; gain = 364.762 ; free physical = 16112 ; free virtual = 40220
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 622.477 ; gain = 354.051
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -143,7 +143,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:31 . Memory (MB): peak = 1514.344 ; gain = 364.762 ; free physical = 16112 ; free virtual = 40221
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 622.477 ; gain = 354.051
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -155,25 +155,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:31 . Memory (MB): peak = 1514.344 ; gain = 364.762 ; free physical = 16112 ; free virtual = 40221
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 622.477 ; gain = 354.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:31 . Memory (MB): peak = 1514.344 ; gain = 364.762 ; free physical = 16112 ; free virtual = 40221
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 622.477 ; gain = 354.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:31 . Memory (MB): peak = 1514.344 ; gain = 364.762 ; free physical = 16112 ; free virtual = 40221
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 622.477 ; gain = 354.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:31 . Memory (MB): peak = 1514.344 ; gain = 364.762 ; free physical = 16112 ; free virtual = 40221
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 622.477 ; gain = 354.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -201,11 +201,11 @@ Report Instance Areas:
 |1     |top      |       |     9|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:31 . Memory (MB): peak = 1514.344 ; gain = 364.762 ; free physical = 16112 ; free virtual = 40221
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 622.477 ; gain = 354.051
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:31 . Memory (MB): peak = 1514.344 ; gain = 364.762 ; free physical = 16113 ; free virtual = 40222
-Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:31 . Memory (MB): peak = 1514.352 ; gain = 364.762 ; free physical = 16113 ; free virtual = 40222
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 622.477 ; gain = 354.051
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 622.477 ; gain = 354.051
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -217,9 +217,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 12 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:01:29 . Memory (MB): peak = 1657.371 ; gain = 567.227 ; free physical = 16020 ; free virtual = 40152
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 729.391 ; gain = 474.465
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-INFO: [Common 17-1381] The checkpoint '/afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.runs/Six_Bit_RCA_basic_synth_1/RCA_Adder.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2222.156 ; gain = 564.785 ; free physical = 15543 ; free virtual = 39676
-report_utilization: Time (s): cpu = 00:00:00.29 ; elapsed = 00:00:01 . Memory (MB): peak = 2222.156 ; gain = 0.000 ; free physical = 15541 ; free virtual = 39674
-INFO: [Common 17-206] Exiting Vivado at Thu Feb  8 20:08:33 2018...
+INFO: [Common 17-1381] The checkpoint 'C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/Six_Bit_RCA_basic_synth_1/RCA_Adder.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1245.328 ; gain = 515.938
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1245.328 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  7 16:53:41 2018...

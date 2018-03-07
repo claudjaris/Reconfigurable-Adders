@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
-| Date         : Tue Feb 27 20:13:28 2018
+| Date         : Wed Mar  7 16:54:35 2018
 | Host         : cfaed-pdpc004 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file RCA_Adder_utilization_synth.rpt -pb RCA_Adder_utilization_synth.pb
 | Design       : RCA_Adder

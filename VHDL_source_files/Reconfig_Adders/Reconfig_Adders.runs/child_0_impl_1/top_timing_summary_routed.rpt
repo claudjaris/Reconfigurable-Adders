@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
-| Date         : Wed Feb 28 12:03:17 2018
+| Date         : Wed Mar  7 17:00:10 2018
 | Host         : cfaed-pdpc004 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -warn_on_violation -max_paths 10 -file top_timing_summary_routed.rpt -rpx top_timing_summary_routed.rpx
 | Design       : top
@@ -136,10 +136,6 @@ All user specified timing constraints are met.
 | Clock Summary
 | -------------
 ------------------------------------------------------------------------------------------------
-
-Clock  Waveform(ns)         Period(ns)      Frequency(MHz)
------  ------------         ----------      --------------
-clk    {0.000 4.650}        9.300           107.527         
 
 
 ------------------------------------------------------------------------------------------------

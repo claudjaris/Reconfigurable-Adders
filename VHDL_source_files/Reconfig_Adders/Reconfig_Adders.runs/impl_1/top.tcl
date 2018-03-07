@@ -47,11 +47,9 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
-  set_param dlyest.enableCRPRFanoutPessimism 0
   set_param simulator.modelsimInstallPath C:/Modeltech_pe_edu_10.4a/win32pe_edu
-  set_param xicom.use_bs_reader 1
   open_checkpoint top_routed.dcp
-  set_property webtalk.parent_dir C:/Users/s3081701/Dropbox/Diplomarbeit/XilinxProjects/Reconfig_Adders/Reconfig_Adders.cache/wt [current_project]
+  set_property webtalk.parent_dir C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.cache/wt [current_project]
   catch { write_mem_info -force top.mmi }
   write_bitstream -force -no_partial_bitfile top.bit 
   write_bitstream -force -cell ReConfig ReConfig_Eight_Bit_RCA_LUT_partial.bit 

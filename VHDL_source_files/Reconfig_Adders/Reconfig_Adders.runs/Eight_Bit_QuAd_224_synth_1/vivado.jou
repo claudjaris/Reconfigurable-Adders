@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
 # Vivado v2017.1 (64-bit)
-# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
 # IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
-# Start of session at: Fri Feb  2 18:10:58 2018
-# Process ID: 5171
-# Current directory: /afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_QuAd_224_synth_1
-# Command line: vivado -log RCA_Adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RCA_Adder.tcl
-# Log file: /afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_QuAd_224_synth_1/RCA_Adder.vds
-# Journal file: /afs/pd.inf.tu-dresden.de/users/s3081701/tmp/Diplomarbeit/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_QuAd_224_synth_1/vivado.jou
+# Start of session at: Wed Mar  7 16:51:51 2018
+# Process ID: 7944
+# Current directory: C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_QuAd_224_synth_1
+# Command line: vivado.exe -log RCA_Adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RCA_Adder.tcl
+# Log file: C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_QuAd_224_synth_1/RCA_Adder.vds
+# Journal file: C:/Users/s3081701/Documents/Diplomarbeit/Git-Repo/VHDL_source_files/Reconfig_Adders/Reconfig_Adders.runs/Eight_Bit_QuAd_224_synth_1\vivado.jou
 #-----------------------------------------------------------
 source RCA_Adder.tcl -notrace

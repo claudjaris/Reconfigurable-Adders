@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="Eight_Bit_Cut2LUT_synth_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1519758751">
-  <File Type="PA-TCL" Name="RCA_Adder.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="RCA_Adder_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="RCA_Adder.tcl"/>
   <File Type="RDS-RDS" Name="RCA_Adder.vds"/>
   <File Type="RDS-UTIL" Name="RCA_Adder_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="RCA_Adder_utilization_synth.pb"/>
